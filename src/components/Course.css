@@ -1,0 +1,26 @@
+
+.course {
+    margin-top: 80px; 
+    padding: 20px;
+  }
+  
+  .CourseCard-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .CourseCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .CourseCard img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

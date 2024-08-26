@@ -1,0 +1,49 @@
+
+.home {
+    padding: 80px 20px 20px; 
+   
+    box-sizing: border-box; 
+  }
+  
+  .trending-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    
+    box-sizing: border-box; 
+  }
+  
+  .card-container {
+    display: flex;
+         width: auto;
+
+    gap: 20px; 
+  }
+  
+ 
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+   
+  }
+  
+  .card img {
+    width: 300px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
+ 
+  
+  .card h3 {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  
+  
