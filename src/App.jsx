@@ -6,7 +6,9 @@ import Home from './components/Home';
 import AICourse from './components/AICourse';
 import BlockchainCourse from './components/Blockchain';
 import CloudComputingCourse from './components/CloudComputing';
+import FullStack from './components/FullStack';
 import CourseNav from './components/CourseNav';
+import DigitalMarketing from './components/DigitalMarketing';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path="/ai-ml" element={<AICourse />} />
         <Route path="/blockchain" element={<BlockchainCourse />} />
         <Route path="/cloud-computing" element={<CloudComputingCourse />} />
+        <Route path="/full-stack" element={<FullStack />} />
+        <Route path="/digital-marketing" element={<DigitalMarketing />} />
         
       </Routes>
       

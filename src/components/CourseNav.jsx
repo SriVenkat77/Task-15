@@ -11,6 +11,8 @@ function CourseNav() {
       <Link to="/ai-ml">AI & ML</Link>
       <Link to="/blockchain">Blockchain</Link>
       <Link to="/cloud-computing">Cloud Computing</Link>
+      <Link to="/full-stack">FullStack</Link>
+      <Link to="/digital-marketing">DigitalMarketing</Link>
       
     </div>
   );
